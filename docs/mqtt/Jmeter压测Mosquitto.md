@@ -20,7 +20,7 @@ at org.apache.jmeter.threads.JMeterThread.initRun(JMeterThread.java:556)
 at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254)
 at java.lang.Thread.run(Unknown Source)
 ~~~
-这是由于mvn clean install package打包时未将引用的第三方包包含进去，修改pom.xml文件如下：
+这是由于mvn clean install package打包时未将引用的第三方包包含进去，修改pom.xml，重新打包：
 ~~~xml
 <!--
  Licensed to the Apache Software Foundation (ASF) under one
