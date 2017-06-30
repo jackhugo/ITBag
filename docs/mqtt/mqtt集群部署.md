@@ -1,4 +1,20 @@
-[Mosquitto单机部署](http://blog.csdn.net/pgpanda/article/details/51800865)
+[windows环境下mosquitto环境搭建与mqtt测试](http://blog.csdn.net/pgpanda/article/details/51800865)
+
+[Mosquitto linux安装](http://blog.csdn.net/xukai871105/article/details/39252653)
+
+### 启动时，会有很多报错，需要安装一下：
+
+~~~linux
+yum install gcc gcc-c++
+yum install openssl-devel
+yum install c-ares-devel
+yum install libuuid-devel
+yum install wget
+yum install cmake
+yum install build-essential python quilt devscripts python-setuptools python3
+~~~
+
+参考：[CentOS 安装Mosquitto及测试](http://blog.163.com/allegro_tyc/blog/static/33743768201667101816858/)
 
 [Mosquitto搭建Android推送服务（三）Mosquitto集群搭建](http://www.cnblogs.com/yinyi521/p/6087215.html)，这是前辈写的，亲测可以。
 
