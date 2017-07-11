@@ -1,4 +1,2 @@
-同一台电脑上使用gitlab和github
-
-https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md
-http://fraserlife.com/2016/08/09/Git%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AA%E8%B4%A6%E5%8F%B7%EF%BC%88GitLab%E5%92%8CGitHub%EF%BC%89/
+## git add
+这是个多功能命令：可以用它开始跟踪新文件，或者把已跟踪的文件放到暂存区，还能用于合并时把有冲突的文件标记为已解决状态等。
