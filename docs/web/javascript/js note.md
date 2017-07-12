@@ -64,3 +64,6 @@ document.write(cars[i] + "<br>");
 i++;
 }
 ~~~
+
+## 函数
+- JavaScript中函数就是变量，因此可以将函数传递给函数

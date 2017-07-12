@@ -14,7 +14,7 @@ Disable the 'clean session' flag. This means that all of the subscriptions for t
 **注意**：这种方法只能对qos为1、2的消息有效。
 
 ### pub client和sub client都有qos，那他们之前又有什么关系？
-sub的qos不会大于pub的qos，及时设置大于也无效。如：
+sub的qos不会大于pub的qos，即使设置大于也无效。如：
 - pub qos为2，sub qos可以设置为0、1、2
 - pub qos为1，sub qos有效值为0、1
 - pub qos为0，sub qos有效值为0
