@@ -15,3 +15,7 @@ p {font-family: "sans serif";}
 
 ## id选择器
 - id 属性只能在每个 HTML 文档中出现一次
+
+## 背景色
+- background-color 不能继承，其默认值是 transparent。transparent 有“透明”之意。也就是说，如果一个元素没有指定背景色，那么背景就是透明的，这样其祖先元素的背景才能可见。
+- background-image 也不能继承。事实上，所有背景属性都不能继承。
