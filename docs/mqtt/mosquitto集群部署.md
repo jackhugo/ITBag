@@ -27,7 +27,7 @@ yum install build-essential python quilt devscripts python-setuptools python3
 
 - 在bridge broker配置集群，通过该节点实现broker A、B、C的message互通。
 - **不足：** bridge broker只能是单点，不具有HA。不过在mosquitto.conf中将cleansession设为false时，当bridge broker宕机重启后，之前的消息还是可以同步。
-- broker A、B、C可以通过HA proxy或者lb实现分布式。
+- broker A、B、C可以通过HA proxy或者lb实现分布式，不过不能实现负载消费。
 
 ## Mosquitto.conf的topic配置
 
