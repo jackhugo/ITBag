@@ -5,3 +5,16 @@
 ## 订阅消息发送规则
 - 同一个topic，相同的clientId订阅者只会消费一次。即使相同clientId，多个订阅者，broker集群会随机选择一个发送消息。
 - 同一个topic，不同的clientId订阅者都会消费一次。
+
+## 集群负载均衡
+- EMQ 集群通常部署在负载均衡器(LB)后面，典型架构:
+![集群架构图](assets/emq-lb.png)
+
+HAProxy、NGINX等常用的负载均衡器(LB)，一般通过Proxy Protocol协议传递TCP连接源地址、源端口给EMQ。
+
+EMQ 2.2 版本的监听器开启Proxy Protocol支持:
+~~~shell
+## Proxy Protocol V1/2
+listener.tcp.${name}.proxy_protocol = on
+listener.tcp.${name}.proxy_protocol_timeout = 3s
+~~~
