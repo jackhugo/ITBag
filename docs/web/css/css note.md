@@ -14,7 +14,7 @@ p {font-family: "sans serif";}
 - CSS 对大小写不敏感。不过存在一个例外：如果涉及到与 HTML 文档一起工作的话，class 和 id 名称对大小写是敏感的
 
 ## id选择器
-- id 属性只能在每个 HTML 文档中出现一次
+- id 属性只能在每个 HTML 文档中出现一次。
 
 ## 背景色
 - background-color 不能继承，其默认值是 transparent。transparent 有“透明”之意。也就是说，如果一个元素没有指定背景色，那么背景就是透明的，这样其祖先元素的背景才能可见。
