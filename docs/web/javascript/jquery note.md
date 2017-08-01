@@ -44,3 +44,11 @@
 - 属性获取、设置，attr()
 - CSS操作，css()
 - 以上函数都包含回调函数，可以返回元素下标和原始值
+
+## 添加
+- append()、prepend() - 在被选元素的结尾、开头插入内容（在该元素内操作）
+- after()、before() - 在被选元素之后、之前插入内容（产生新的元素）
+
+## css类
+- 添加类时，您也可以选取多个元素： $("h1,h2,p").addClass("blue");
+- 您也可以在 addClass() 方法中规定多个类：$("#div1").addClass("important blue");
