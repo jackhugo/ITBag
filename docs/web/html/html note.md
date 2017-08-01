@@ -7,9 +7,12 @@
 
 ## class
 - class 属性不能在以下 HTML 元素中使用：base, head, html, meta, param, script, style 以及 title。
-- 可以给 HTML 元素赋予多个 class，例如：<span class="left_menu important">。这么做可以把若干个 CSS 类合并到一个 HTML 元素。
+- 可以给 HTML 元素赋予多个 class，例如：<span class="left_menu important"\>。这么做可以把若干个 CSS 类合并到一个 HTML 元素。
 - 类名不能以数字开头！只有 Internet Explorer 支持这种做法。
 
-## 斜体 <i> <em>
-- 如果你只想使用斜体字来显示文本的话，请使用 <i> 标签。
-- <em>也是斜体，但表示强调
+## 斜体 <i\> <em\>
+- 如果你只想使用斜体字来显示文本的话，请使用 <i\> 标签。
+- <em\>也是斜体，但表示强调
+
+## 标签
+- <span\> 来组合行内元素，以便通过样式来格式化它们。
