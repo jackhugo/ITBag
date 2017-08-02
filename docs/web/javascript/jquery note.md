@@ -3,7 +3,7 @@
 # 教程
 ## 安装
 - 为什么我们没有在<script\> 标签中使用type="text/javascript" ？
-在 HTML5 中，不必那样做了。JavaScript 是 HTML5 以及所有现代浏览器中的默认脚本语言！
+在 HTML5 中，不必那样做了。JavaScript 是 HTML5 以及所有现代浏览器中的默认脚本语言。
 
 ## 语法
 - $(this).hide()
