@@ -13,7 +13,7 @@
 - $("p").hide()
 演示 jQuery hide() 函数，隐藏所有 <p\> 元素。
 - $(".test").hide()
-演示 jQuery hide() 函数，隐藏所有 class="test" 的元素。
+演示 jQuery hide() 函数，隐藏所有 class="test" 的元素
 
 ## 选择器
 - 元素选择器，通过类型、id、class选择
