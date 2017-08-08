@@ -1,0 +1,3 @@
+- (document).on是把事件委托到document上。(‘className’).on是把事件绑定到.className元素上。
+- 效率方面，直接绑定在元素上会更为高效，绑定在document上，每次document有点击动作，浏览器都会判断当前点击的对象，如果匹配，再决定要不要执行，多了一个判断的环节。但在目前开发中，js渲染效率很高，所以此异同基本可以忽略不计。
+- 此外，针对(document).on的触发特点，延伸一下，(“className”).on为onclick绑定，只有在页面onload的时候执行一次，当页面刷新后，新加载的具有className的元素便没有事件绑定到上面了，相反$(document).on这种方法会刷新和重新赋予绑定操作，所以一定程度上更为全面。
