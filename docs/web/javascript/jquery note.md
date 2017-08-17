@@ -22,7 +22,7 @@
 
 # 效果
 ## 隐藏、显示
--  toggle() 方法来切换 hide() 和 show() 方法。
+-  toggle() 方法来切换 hide() 和 show() 方法
   - $(selector).toggle(speed,callback); speed可以是slow、fast、毫秒
 
 ## 动画
