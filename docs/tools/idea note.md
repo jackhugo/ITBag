@@ -3,3 +3,4 @@
 - ctrl+q：查看说明
 - ctrl+alt+左键：方法实现
 - ctrl+alt+方向键：返回至上次浏览的位置
+- shift+f6：重命名
