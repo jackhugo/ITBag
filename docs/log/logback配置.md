@@ -57,6 +57,7 @@
 
     <logger name="com.zhongan.cf" additivity="false">
         <level value="INFO" />
+        <!--info、error日志存储不同文件中-->
         <appender-ref ref="OperationRollingFileASYNC"/>
         <appender-ref ref="ERROR"/>
         <appender-ref ref="STDOUT" />
