@@ -16,6 +16,7 @@
 
 	<appender name="OperationRollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${log.dir}/${projectname}_info.log</file>
+        <!--历史日志处理-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${log.dir}/logs/${projectname}_info-%d{yyyy-MM-dd}.log</fileNamePattern>
             <!--日志保留30天-->
