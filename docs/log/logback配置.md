@@ -54,7 +54,6 @@
 			<appender-ref ref="OperationRollingFile" />
 	</appender>
 
-
     <logger name="com.zhongan.cf" additivity="false">
         <level value="INFO" />
         <!--info、error日志存储不同文件中-->
