@@ -1,5 +1,6 @@
 - [Intellij IDEA调试功能使用总结](http://www.cnblogs.com/Bowu/p/4026117.html)
 - [IDEA中配置spring boot热部署](http://blog.csdn.net/my_chen_suo_zhang/article/details/69396808)
+- [IDEA里面添加lombok插件,编写简略风格Java代码](http://blog.csdn.net/hinstenyhisoka/article/details/50468271)
 - ctrl+q：查看说明
 - ctrl+alt+左键：方法实现
 - ctrl+alt+方向键：返回至上次浏览的位置
