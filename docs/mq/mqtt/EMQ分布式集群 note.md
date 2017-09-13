@@ -27,3 +27,11 @@
   listener.tcp.${name}.proxy_protocol = on
   listener.tcp.${name}.proxy_protocol_timeout = 3s
   ~~~
+
+- 集群操作命令
+  ~~~shell
+  $ ./bin/emqttd_ctl cluster join emq@s1.emqtt.io //节点加入集群
+  $ ./bin/emqttd_ctl cluster status //查询集群状态
+  $ ./bin/emqttd_ctl cluster leave //主动退出集群
+  $ ./bin/emqttd_ctl cluster remove emq@s2.emqtt.io //删除节点
+  ~~~

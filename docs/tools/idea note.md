@@ -1,7 +1,10 @@
 - [Intellij IDEA调试功能使用总结](http://www.cnblogs.com/Bowu/p/4026117.html)
 - [IDEA中配置spring boot热部署](http://blog.csdn.net/my_chen_suo_zhang/article/details/69396808)
 - [IDEA里面添加lombok插件,编写简略风格Java代码](http://blog.csdn.net/hinstenyhisoka/article/details/50468271)
+- [settings仅对当前项目有效，default settings则是全局设置](https://www.jetbrains.com/help/idea/2016.1/editing-maven-settings.html)
+- 自动清理无用的import：Auto Import > Optimize imports on the fly
 - ctrl+q：查看说明
 - ctrl+alt+左键：方法实现
 - ctrl+alt+方向键：返回至上次浏览的位置
 - shift+f6：重命名
+- ctrl+alt+t：调出surround with
