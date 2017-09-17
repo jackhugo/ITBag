@@ -62,3 +62,5 @@ default List convert(Currency from, Currency to, List amounts) {
 
 ### 流式处理
 [流式数据处理](http://www.cnblogs.com/shenlanzhizun/p/6027042.html)
+
+流式处理让集合操作变得更简洁
