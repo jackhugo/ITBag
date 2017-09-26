@@ -8,3 +8,5 @@
 - ctrl+alt+方向键：返回至上次浏览的位置
 - shift+f6：重命名
 - ctrl+alt+t：调出surround with
+- ctrl+i：实现接口方法
+- ctrl+o：重载方法
