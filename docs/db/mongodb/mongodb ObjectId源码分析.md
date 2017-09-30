@@ -61,7 +61,7 @@ private static int createMachineIdentifier() {
         machinePiece = (new SecureRandom().nextInt());
         LOGGER.warn("Failed to get machine identifier from network interface, using random number instead", t);
     }
-    //去掉前一个byte
+    //去掉第一个byte，因为只需要3个byte
     machinePiece = machinePiece & LOW_ORDER_THREE_BYTES;
     return machinePiece;
 }
