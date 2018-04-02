@@ -1,1 +1,2 @@
 - [zuul quick start](https://spring.io/guides/gs/routing-and-filtering/)
+- [spring-cloud-zuul-ratelimit 限流](https://github.com/marcosbarbero/spring-cloud-zuul-ratelimit)
